@@ -1,0 +1,781 @@
+2025-04-18 11:59:09,616 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 11:59:24,255 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 11:59:27,817 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 12:00:36,100 - INFO - /home/johndoe/api/backend-django/mailapp/urls.py changed, reloading.
+2025-04-18 12:07:01,761 - WARNING - Not Found: /swagger/
+2025-04-18 12:07:01,907 - WARNING - Not Found: /favicon.ico
+2025-04-18 12:07:03,161 - WARNING - Not Found: /redoc/
+2025-04-18 12:07:32,839 - WARNING - Not Found: /
+2025-04-18 12:07:36,991 - WARNING - Not Found: /docs
+2025-04-18 12:07:45,814 - WARNING - Not Found: /swagger
+2025-04-18 12:08:57,646 - INFO - /home/johndoe/api/backend-django/app/urls.py changed, reloading.
+2025-04-18 12:09:35,400 - ERROR - Internal Server Error: /mail/swagger/
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/drf_yasg/renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+2025-04-18 12:09:36,182 - ERROR - Internal Server Error: /mail/redoc/
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/drf_yasg/renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/redoc.html
+2025-04-18 12:09:37,076 - WARNING - Method Not Allowed: /mail/send
+2025-04-18 12:10:11,401 - INFO - /home/johndoe/api/backend-django/mailapp/urls.py changed, reloading.
+2025-04-18 12:10:13,253 - WARNING - Not Found: /mail/send
+2025-04-18 12:10:14,585 - WARNING - Method Not Allowed: /mail/
+2025-04-18 12:10:40,455 - ERROR - Internal Server Error: /mail/redoc/
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/drf_yasg/renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/redoc.html
+2025-04-18 12:10:53,118 - ERROR - Internal Server Error: /mail/swagger/
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/drf_yasg/renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+2025-04-18 12:10:59,718 - WARNING - Method Not Allowed: /mail/
+2025-04-18 12:11:08,138 - WARNING - Bad Request: /mail/
+2025-04-18 12:11:23,772 - WARNING - Bad Request: /mail/
+2025-04-18 12:11:33,243 - WARNING - Bad Request: /mail/
+2025-04-18 12:11:57,620 - ERROR - Exception on /mail/send endpoint for reason: 'dict' object has no attribute 'smtp_auth'
+2025-04-18 12:11:57,623 - WARNING - Bad Request: /mail/
+2025-04-18 12:12:10,186 - ERROR - Internal Server Error: /mail/swagger/
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/drf_yasg/renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+2025-04-18 12:12:43,735 - WARNING - Not Found: /swagger
+2025-04-18 12:12:44,403 - WARNING - Not Found: /swagger
+2025-04-18 12:12:44,605 - WARNING - Not Found: /swagger
+2025-04-18 12:12:44,803 - WARNING - Not Found: /swagger
+2025-04-18 12:12:49,316 - ERROR - Internal Server Error: /mail/swagger/
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/drf_yasg/renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+2025-04-18 12:13:37,737 - INFO - /home/johndoe/api/backend-django/app/settings.py changed, reloading.
+2025-04-18 12:14:10,033 - ERROR - Internal Server Error: /mail/swagger/
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/drf_yasg/renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+2025-04-18 12:14:13,723 - ERROR - Internal Server Error: /mail/swagger/
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/drf_yasg/renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+2025-04-18 12:14:19,873 - INFO - /home/johndoe/api/backend-django/app/settings.py changed, reloading.
+2025-04-18 12:14:21,732 - ERROR - Internal Server Error: /mail/swagger/
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/drf_yasg/renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+2025-04-18 12:15:04,151 - INFO - /home/johndoe/api/backend-django/app/settings.py changed, reloading.
+2025-04-18 12:15:23,668 - WARNING - Bad Request: /mail/
+2025-04-18 12:40:12,835 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 12:41:12,688 - INFO - /home/johndoe/api/backend-django/mailapp/mailer.py changed, reloading.
+2025-04-18 12:41:25,586 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 12:41:31,500 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 12:41:36,285 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 12:41:47,136 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 12:42:01,073 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 12:42:32,740 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 12:42:45,621 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 12:43:08,619 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 12:43:33,704 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 12:43:38,469 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 12:44:56,135 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 12:44:59,961 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-18 12:46:25,659 - INFO - /home/johndoe/api/backend-django/mailapp/urls.py changed, reloading.
+2025-04-18 13:18:52,570 - WARNING - Not Found: /accounts/login/
+2025-04-20 08:46:30,988 - WARNING - Not Found: /
+2025-04-20 08:46:31,036 - WARNING - Not Found: /favicon.ico
+2025-04-20 08:46:34,868 - WARNING - Method Not Allowed: /mail/
+2025-04-20 08:53:31,443 - INFO - /home/johndoe/api/backend-django/mailapp/urls.py changed, reloading.
+2025-04-20 08:54:52,714 - INFO - /home/johndoe/api/backend-django/mailapp/urls.py changed, reloading.
+2025-04-20 08:55:19,511 - INFO - /home/johndoe/api/backend-django/app/urls.py changed, reloading.
+2025-04-20 08:56:50,859 - INFO - /home/johndoe/api/backend-django/app/urls.py changed, reloading.
+2025-04-20 08:56:58,813 - INFO - /home/johndoe/api/backend-django/app/urls.py changed, reloading.
+2025-04-20 08:57:09,471 - INFO - /home/johndoe/api/backend-django/app/urls.py changed, reloading.
+2025-04-20 08:57:14,086 - INFO - /home/johndoe/api/backend-django/app/urls.py changed, reloading.
+2025-04-20 08:57:22,711 - INFO - /home/johndoe/api/backend-django/mailapp/urls.py changed, reloading.
+2025-04-20 08:57:39,382 - INFO - /home/johndoe/api/backend-django/mailapp/urls.py changed, reloading.
+2025-04-20 08:59:05,041 - WARNING - Not Found: /mail/testsmtp
+2025-04-20 08:59:27,883 - INFO - /home/johndoe/api/backend-django/app/urls.py changed, reloading.
+2025-04-20 08:59:31,148 - WARNING - Not Found: /mail/testsmtp
+2025-04-20 08:59:47,615 - INFO - /home/johndoe/api/backend-django/mailapp/urls.py changed, reloading.
+2025-04-20 08:59:53,292 - WARNING - Not Found: /mail/testsmtp
+2025-04-20 09:00:00,235 - WARNING - Not Found: /mail/testsmtp
+2025-04-20 09:00:07,333 - INFO - /home/johndoe/api/backend-django/mailapp/urls.py changed, reloading.
+2025-04-20 09:00:09,743 - WARNING - Not Found: /mail/testsmtp
+2025-04-20 09:01:08,473 - INFO - /home/johndoe/api/backend-django/app/urls.py changed, reloading.
+2025-04-20 09:01:17,866 - ERROR - Internal Server Error: /mail/testsmtp
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/mail/testsmtp/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2025-04-20 09:02:01,390 - ERROR - Internal Server Error: /mail/testsmtp
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/mail/testsmtp/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2025-04-20 09:02:09,624 - ERROR - Internal Server Error: /mail/testsmtp
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/mail/testsmtp/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2025-04-20 09:03:47,400 - WARNING - Bad Request: /mail/testsmtp/
+2025-04-20 09:04:02,020 - WARNING - Bad Request: /mail/testsmtp/
+2025-04-20 09:05:42,569 - INFO - /home/johndoe/api/backend-django/app/settings.py changed, reloading.
+2025-04-20 09:05:45,815 - WARNING - Bad Request: /mail/testsmtp/
+2025-04-20 09:07:53,678 - ERROR - Exception on /mail/test-smtp endpoint for reason: 'dict' object has no attribute 'smtp_server'
+2025-04-20 09:07:53,679 - WARNING - Bad Request: /mail/testsmtp/
+2025-04-20 09:08:29,585 - INFO - /home/johndoe/api/backend-django/mailapp/mailer.py changed, reloading.
+2025-04-20 09:08:36,207 - INFO - /home/johndoe/api/backend-django/mailapp/mailer.py changed, reloading.
+2025-04-20 09:08:39,841 - ERROR - Exception on /mail/test-smtp endpoint for reason: 'dict' object has no attribute 'smtp_server'
+2025-04-20 09:08:39,841 - WARNING - Bad Request: /mail/testsmtp/
+2025-04-20 09:09:14,070 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-20 09:09:16,593 - ERROR - Exception on /mail/test-smtp endpoint for reason: 'data' is an invalid keyword argument for print()
+2025-04-20 09:09:16,593 - WARNING - Bad Request: /mail/testsmtp/
+2025-04-20 09:09:23,750 - ERROR - Exception on /mail/test-smtp endpoint for reason: 'data' is an invalid keyword argument for print()
+2025-04-20 09:09:23,751 - WARNING - Bad Request: /mail/testsmtp/
+2025-04-20 09:09:37,890 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-20 09:09:41,476 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-20 09:09:43,995 - ERROR - Exception on /mail/test-smtp endpoint for reason: 'dict' object has no attribute 'smtp_server'
+2025-04-20 09:09:43,996 - WARNING - Bad Request: /mail/testsmtp/
+2025-04-20 09:12:23,625 - INFO - /home/johndoe/api/backend-django/mailapp/urls.py changed, reloading.
+2025-04-30 23:18:50,935 - ERROR - Erreur lors de la récupération: relation "mailapp_campaignmail" does not exist
+LINE 1: SELECT 1 AS "a" FROM "mailapp_campaignmail" LIMIT 1
+                             ^
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "mailapp_campaignmail" does not exist
+LINE 1: SELECT 1 AS "a" FROM "mailapp_campaignmail" LIMIT 1
+                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/mailapp/views.py", line 34, in get
+    if not campaigns.exists():  # Vérifie s'il y a des campagnes
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1293, in exists
+    return self.query.has_results(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 674, in has_results
+    return compiler.has_results()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1590, in has_results
+    return bool(self.execute_sql(SINGLE))
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1622, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "mailapp_campaignmail" does not exist
+LINE 1: SELECT 1 AS "a" FROM "mailapp_campaignmail" LIMIT 1
+                             ^
+
+2025-04-30 23:18:50,946 - ERROR - Internal Server Error: /mail/campaigns/
+2025-04-30 23:18:52,737 - ERROR - Exception on /templates endpoint for reason: relation "mailapp_template" does not exist
+LINE 1: ...ate"."from_email", "mailapp_template"."body" FROM "mailapp_t...
+                                                             ^
+
+2025-04-30 23:18:52,738 - WARNING - Bad Request: /mail/templates/
+2025-04-30 23:36:33,001 - ERROR - Erreur lors de la récupération: relation "mailapp_campaignmail" does not exist
+LINE 1: SELECT 1 AS "a" FROM "mailapp_campaignmail" LIMIT 1
+                             ^
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "mailapp_campaignmail" does not exist
+LINE 1: SELECT 1 AS "a" FROM "mailapp_campaignmail" LIMIT 1
+                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/johndoe/api/backend-django/mailapp/views.py", line 34, in get
+    if not campaigns.exists():  # Vérifie s'il y a des campagnes
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1293, in exists
+    return self.query.has_results(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 674, in has_results
+    return compiler.has_results()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1590, in has_results
+    return bool(self.execute_sql(SINGLE))
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1622, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/johndoe/api/backend-django/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "mailapp_campaignmail" does not exist
+LINE 1: SELECT 1 AS "a" FROM "mailapp_campaignmail" LIMIT 1
+                             ^
+
+2025-04-30 23:36:33,005 - ERROR - Internal Server Error: /mail/campaigns/
+2025-04-30 23:48:30,894 - INFO - Aucune campagne trouvée dans la base de données
+2025-04-30 23:48:37,765 - INFO - Retrieve 0 template(s)
+2025-04-30 23:48:40,866 - INFO - Retrieve 0 template(s)
+2025-04-30 23:48:44,402 - INFO - Aucune campagne trouvée dans la base de données
+2025-04-30 23:48:50,911 - INFO - Aucune campagne trouvée dans la base de données
+2025-04-30 23:52:05,480 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-30 23:52:13,281 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-30 23:52:19,841 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-04-30 23:52:32,229 - INFO - Retrieved 2 campaign(s)
+2025-04-30 23:52:34,449 - INFO - Campaign removed successfully with id 2
+2025-04-30 23:56:16,547 - INFO - Retrieve 0 template(s)
+2025-04-30 23:56:28,667 - INFO - Retrieved 2 campaign(s)
+2025-04-30 23:56:33,406 - INFO - Retrieved 2 campaign(s)
+2025-04-30 23:56:41,701 - INFO - Retrieve 0 template(s)
+2025-04-30 23:56:42,508 - INFO - Retrieve 0 template(s)
+2025-04-30 23:56:49,621 - INFO - Retrieved 2 campaign(s)
+2025-04-30 23:56:51,890 - INFO - Campaign removed successfully with id 3
+2025-04-30 23:56:52,593 - INFO - Campaign removed successfully with id 1
+2025-05-01 00:00:21,741 - INFO - Retrieved 1 campaign(s)
+2025-05-01 00:00:26,618 - INFO - Campaign removed successfully with id 4
+2025-05-01 00:00:45,909 - INFO - Retrieve 0 template(s)
+2025-05-01 00:00:51,643 - INFO - Template created successfully asdf
+2025-05-01 00:07:40,722 - INFO - Retrieved 1 campaign(s)
+2025-05-01 00:07:46,681 - INFO - Retrieve 1 template(s)
+2025-05-01 00:07:47,853 - INFO - Retrieved 1 campaign(s)
+2025-05-01 00:07:50,568 - INFO - Retrieve 1 template(s)
+2025-05-01 00:09:16,049 - INFO - Template updated successfully with id 1
+2025-05-01 00:09:24,310 - INFO - Retrieved 1 campaign(s)
+2025-05-01 00:09:24,664 - INFO - Retrieve 1 template(s)
+2025-05-01 00:09:28,530 - INFO - Retrieved 1 campaign(s)
+2025-05-01 00:09:30,320 - INFO - Retrieve 1 template(s)
+2025-05-01 00:09:33,034 - INFO - Retrieved 1 campaign(s)
+2025-05-01 14:17:03,762 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-05-01 14:17:49,633 - INFO - Retrieve 1 template(s)
+2025-05-01 14:17:50,756 - INFO - Retrieve 1 template(s)
+2025-05-01 14:17:52,836 - INFO - Retrieved 1 campaign(s)
+2025-05-01 14:17:54,005 - INFO - Retrieve 1 template(s)
+2025-05-01 14:17:55,629 - INFO - Retrieved 1 campaign(s)
+2025-05-01 14:17:58,462 - INFO - Retrieved 1 campaign(s)
+2025-05-01 14:17:59,548 - INFO - Retrieve 1 template(s)
+2025-05-01 14:19:11,576 - INFO - Retrieved 1 campaign(s)
+2025-05-01 14:19:12,908 - WARNING - Not Found: /mail
+2025-05-01 14:55:27,883 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:00:04,923 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:05:30,119 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:05:31,175 - INFO - Retrieve 1 template(s)
+2025-05-01 15:10:47,226 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:10:47,990 - WARNING - Not Found: /mail
+2025-05-01 15:10:56,394 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:10:57,005 - INFO - Retrieve 1 template(s)
+2025-05-01 15:11:20,001 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:11:21,503 - WARNING - Not Found: /mail
+2025-05-01 15:11:30,959 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:11:31,829 - INFO - Retrieve 1 template(s)
+2025-05-01 15:15:30,732 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:15:32,031 - WARNING - Not Found: /mail
+2025-05-01 15:15:51,205 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:17:35,737 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:18:12,158 - ERROR - Failed authentication to server smtp.mail.yahoo.com on port 587 for reason: Connection unexpectedly closed
+2025-05-01 15:18:12,159 - ERROR - Exception on /mail/test-smtp endpoint for reason: 
+2025-05-01 15:18:12,161 - WARNING - Bad Request: /mail/testsmtp/
+2025-05-01 15:19:32,137 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:19:51,435 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:19:53,065 - INFO - Retrieve 1 template(s)
+2025-05-01 15:19:54,852 - WARNING - Not Found: /mail
+2025-05-01 15:19:56,622 - INFO - Retrieve 1 template(s)
+2025-05-01 15:19:58,652 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:20:01,049 - WARNING - Not Found: /mail
+2025-05-01 15:21:25,050 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:21:29,717 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:21:30,314 - INFO - Retrieve 1 template(s)
+2025-05-01 15:22:59,336 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:23:04,044 - WARNING - Not Found: /mail
+2025-05-01 15:23:23,706 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:23:52,494 - WARNING - Not Found: /mail
+2025-05-01 15:23:55,227 - WARNING - Not Found: /mail
+2025-05-01 15:23:56,266 - INFO - Retrieve 1 template(s)
+2025-05-01 15:23:58,167 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:24:00,219 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:24:00,978 - INFO - Retrieve 1 template(s)
+2025-05-01 15:25:33,045 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:26:34,781 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:27:23,503 - INFO - Retrieve 1 template(s)
+2025-05-01 15:27:47,459 - WARNING - Not Found: /mail
+2025-05-01 15:31:17,920 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:32:55,799 - INFO - /home/johndoe/api/backend-django/mailapp/urls.py changed, reloading.
+2025-05-01 15:33:59,624 - INFO - Retrieve 1 template(s)
+2025-05-01 15:34:02,807 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:35:31,552 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:35:53,530 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:38:26,955 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:40:47,295 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:40:53,751 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:40:54,336 - INFO - Retrieve 1 template(s)
+2025-05-01 15:40:59,176 - WARNING - Not Found: /mail
+2025-05-01 15:41:00,885 - INFO - Retrieve 1 template(s)
+2025-05-01 15:41:02,778 - INFO - Retrieve 1 template(s)
+2025-05-01 15:42:34,894 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:42:37,300 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:42:37,951 - INFO - Retrieve 1 template(s)
+2025-05-01 15:42:40,961 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:43:26,399 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:44:24,927 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:45:53,923 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:45:59,429 - WARNING - Not Found: /mail
+2025-05-01 15:46:02,045 - INFO - Retrieve 1 template(s)
+2025-05-01 15:46:44,882 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:47:28,334 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:47:35,668 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:48:15,721 - ERROR - Failed authentication to server smtp.gmail.com on port 587 for reason: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-441b2ad76a2sm62705715e9.6 - gsmtp')
+2025-05-01 15:48:15,723 - ERROR - Exception on /mail/test-smtp endpoint for reason: 
+2025-05-01 15:48:15,725 - WARNING - Bad Request: /mail/testsmtp/
+2025-05-01 15:48:33,570 - WARNING - Not Found: /mail/testimap/
+2025-05-01 15:48:36,808 - WARNING - Not Found: /mail/testimap/
+2025-05-01 15:48:55,613 - WARNING - Not Found: /mail
+2025-05-01 15:53:22,774 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:53:27,203 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:53:27,801 - INFO - Retrieve 1 template(s)
+2025-05-01 15:53:40,016 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:53:43,330 - INFO - Retrieve 1 template(s)
+2025-05-01 15:55:03,907 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:55:30,909 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:56:39,247 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:56:41,984 - INFO - Retrieve 1 template(s)
+2025-05-01 15:56:42,490 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:59:09,397 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:59:13,787 - INFO - Retrieve 1 template(s)
+2025-05-01 15:59:19,055 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:59:28,337 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:59:30,084 - INFO - Retrieved 1 campaign(s)
+2025-05-01 15:59:30,709 - INFO - Retrieve 1 template(s)
+2025-05-01 15:59:39,125 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:00:58,947 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:01:24,829 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:01:26,217 - INFO - Retrieve 1 template(s)
+2025-05-01 16:01:58,497 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:02:02,713 - INFO - Retrieve 1 template(s)
+2025-05-01 16:02:08,316 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:02:09,841 - INFO - Retrieve 1 template(s)
+2025-05-01 16:02:13,823 - WARNING - Not Found: /mail
+2025-05-01 16:02:19,187 - INFO - Retrieve 1 template(s)
+2025-05-01 16:03:00,559 - INFO - Retrieve 1 template(s)
+2025-05-01 16:03:02,355 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:04:35,042 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:04:45,576 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:04:48,394 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:04:49,451 - WARNING - Not Found: /mail
+2025-05-01 16:04:51,570 - INFO - Retrieve 1 template(s)
+2025-05-01 16:04:53,364 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:04:54,179 - INFO - Retrieve 1 template(s)
+2025-05-01 16:04:57,386 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:04:57,981 - INFO - Retrieve 1 template(s)
+2025-05-01 16:04:59,790 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:05:01,369 - INFO - Retrieve 1 template(s)
+2025-05-01 16:05:53,339 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:05:58,286 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:05:58,745 - INFO - Retrieve 1 template(s)
+2025-05-01 16:06:01,795 - WARNING - Not Found: /mail
+2025-05-01 16:06:26,443 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:06:32,345 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:06:33,795 - INFO - Retrieve 1 template(s)
+2025-05-01 16:06:34,482 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:06:35,052 - INFO - Retrieve 1 template(s)
+2025-05-01 16:06:36,642 - WARNING - Not Found: /mail
+2025-05-01 16:06:40,804 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:06:42,513 - WARNING - Not Found: /mail
+2025-05-01 16:06:45,232 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:06:46,806 - WARNING - Not Found: /mail
+2025-05-01 16:06:55,494 - INFO - Retrieve 1 template(s)
+2025-05-01 16:07:16,324 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:07:17,946 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:07:19,318 - INFO - Retrieve 1 template(s)
+2025-05-01 16:07:20,834 - WARNING - Not Found: /mail
+2025-05-01 16:07:40,448 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:07:50,713 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:07:51,709 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:09:11,133 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:09:12,492 - INFO - Retrieve 1 template(s)
+2025-05-01 16:11:03,857 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:12:22,695 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:13:16,869 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:13:53,321 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:15:11,344 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:15:13,140 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:15:15,768 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:15:16,337 - INFO - Retrieve 1 template(s)
+2025-05-01 16:15:17,844 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:15:25,883 - INFO - Retrieve 1 template(s)
+2025-05-01 16:15:27,499 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:15:31,223 - INFO - Retrieve 1 template(s)
+2025-05-01 16:15:32,141 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:15:48,434 - INFO - Retrieve 1 template(s)
+2025-05-01 16:16:41,048 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:16:42,324 - INFO - Retrieve 1 template(s)
+2025-05-01 16:16:44,710 - INFO - Retrieve 1 template(s)
+2025-05-01 16:16:45,387 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:16:46,411 - INFO - Retrieve 1 template(s)
+2025-05-01 16:17:07,614 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:17:08,705 - INFO - Retrieve 1 template(s)
+2025-05-01 16:17:09,841 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:17:10,996 - INFO - Retrieve 1 template(s)
+2025-05-01 16:17:21,515 - INFO - Retrieve 1 template(s)
+2025-05-01 16:17:22,179 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:18:15,407 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:18:16,020 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:18:16,730 - INFO - Retrieve 1 template(s)
+2025-05-01 16:18:19,461 - INFO - Retrieve 1 template(s)
+2025-05-01 16:18:20,046 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:18:21,062 - INFO - Retrieve 1 template(s)
+2025-05-01 16:18:30,158 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:18:30,814 - INFO - Retrieve 1 template(s)
+2025-05-01 16:19:08,314 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:19:10,196 - INFO - Retrieve 1 template(s)
+2025-05-01 16:19:10,853 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:19:12,754 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:19:14,764 - INFO - Retrieve 1 template(s)
+2025-05-01 16:19:34,755 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:19:35,672 - INFO - Retrieve 1 template(s)
+2025-05-01 16:19:36,529 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:19:38,078 - INFO - Retrieve 1 template(s)
+2025-05-01 16:19:46,780 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:19:48,276 - INFO - Retrieve 1 template(s)
+2025-05-01 16:19:49,751 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:19:51,089 - INFO - Retrieve 1 template(s)
+2025-05-01 16:20:18,272 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:21:14,969 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:21:16,164 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:21:16,834 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:21:18,811 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:21:53,780 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:21:54,704 - INFO - Retrieve 1 template(s)
+2025-05-01 16:21:56,760 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:21:58,222 - INFO - Retrieve 1 template(s)
+2025-05-01 16:22:04,337 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:22:05,461 - INFO - Retrieve 1 template(s)
+2025-05-01 16:23:02,804 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:23:04,894 - INFO - Retrieve 1 template(s)
+2025-05-01 16:23:05,634 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:23:25,404 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:23:26,368 - INFO - Retrieve 1 template(s)
+2025-05-01 16:23:27,796 - INFO - Retrieve 1 template(s)
+2025-05-01 16:23:28,492 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:23:31,901 - INFO - Retrieve 1 template(s)
+2025-05-01 16:24:06,435 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:24:48,763 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:24:51,712 - WARNING - Not Found: /mail
+2025-05-01 16:24:53,201 - INFO - Retrieve 1 template(s)
+2025-05-01 16:24:55,204 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:24:55,895 - INFO - Retrieve 1 template(s)
+2025-05-01 16:24:57,464 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:24:59,390 - INFO - Retrieve 1 template(s)
+2025-05-01 16:25:03,413 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:25:04,602 - INFO - Retrieve 1 template(s)
+2025-05-01 16:25:05,908 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:25:06,935 - INFO - Retrieve 1 template(s)
+2025-05-01 16:25:08,487 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:25:09,632 - INFO - Retrieve 1 template(s)
+2025-05-01 16:25:47,289 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:27:16,169 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:27:19,320 - INFO - Retrieve 1 template(s)
+2025-05-01 16:27:20,491 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:28:01,703 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:28:05,092 - INFO - Retrieve 1 template(s)
+2025-05-01 16:28:09,027 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:28:12,660 - INFO - Retrieve 1 template(s)
+2025-05-01 16:28:14,479 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:28:15,878 - INFO - Retrieve 1 template(s)
+2025-05-01 16:29:05,090 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:29:05,698 - INFO - Retrieve 1 template(s)
+2025-05-01 16:29:06,853 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:29:07,766 - INFO - Retrieve 1 template(s)
+2025-05-01 16:29:54,948 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:30:02,426 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:30:05,312 - INFO - Retrieve 1 template(s)
+2025-05-01 16:30:07,191 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:30:07,745 - INFO - Retrieve 1 template(s)
+2025-05-01 16:30:09,126 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:30:10,109 - INFO - Retrieve 1 template(s)
+2025-05-01 16:30:11,047 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:30:12,076 - INFO - Retrieve 1 template(s)
+2025-05-01 16:30:40,770 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:32:16,924 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:32:26,116 - INFO - Retrieve 1 template(s)
+2025-05-01 16:32:31,102 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:32:32,264 - INFO - Retrieve 1 template(s)
+2025-05-01 16:32:33,293 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:32:55,571 - INFO - Retrieve 1 template(s)
+2025-05-01 16:33:07,177 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:33:09,162 - INFO - Retrieve 1 template(s)
+2025-05-01 16:33:11,978 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:33:29,079 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:33:30,057 - INFO - Retrieve 1 template(s)
+2025-05-01 16:33:30,817 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:33:31,552 - INFO - Retrieve 1 template(s)
+2025-05-01 16:34:03,071 - WARNING - Not Found: /mail
+2025-05-01 16:34:05,408 - ERROR - Failed connection to server mal.lpoicloud.com on port 589 for reason: [Errno -2] Name or service not known
+2025-05-01 16:34:05,409 - ERROR - Exception on /mail/test-smtp endpoint for reason: 
+2025-05-01 16:34:05,412 - WARNING - Bad Request: /mail/testsmtp/
+2025-05-01 16:34:06,912 - ERROR - Failed connection to server mal.lpoicloud.com on port 589 for reason: [Errno -2] Name or service not known
+2025-05-01 16:34:06,913 - ERROR - Exception on /mail/test-smtp endpoint for reason: 
+2025-05-01 16:34:06,915 - WARNING - Bad Request: /mail/testsmtp/
+2025-05-01 16:34:11,483 - ERROR - Failed connection to server mal.lpoicloud.com on port 587 for reason: [Errno -2] Name or service not known
+2025-05-01 16:34:11,484 - ERROR - Exception on /mail/test-smtp endpoint for reason: 
+2025-05-01 16:34:11,486 - WARNING - Bad Request: /mail/testsmtp/
+2025-05-01 16:34:36,424 - ERROR - Failed connection to server mal.lpoicloud.com on port 587 for reason: [Errno -2] Name or service not known
+2025-05-01 16:34:36,426 - ERROR - Exception on /mail/test-smtp endpoint for reason: 
+2025-05-01 16:34:36,430 - WARNING - Bad Request: /mail/testsmtp/
+2025-05-01 16:34:47,700 - WARNING - Not Found: /mail/testimap/
+2025-05-01 16:34:50,834 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:34:52,206 - WARNING - Not Found: /mail
+2025-05-01 16:36:47,795 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:36:48,816 - INFO - Retrieve 1 template(s)
+2025-05-01 16:37:02,888 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:37:03,832 - INFO - Retrieve 1 template(s)
+2025-05-01 16:37:12,700 - INFO - Retrieve 1 template(s)
+2025-05-01 16:37:25,880 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:37:34,640 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:37:39,115 - WARNING - Not Found: /mail/testimap/
+2025-05-01 16:37:42,036 - WARNING - Not Found: /mail
+2025-05-01 16:38:32,615 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-05-01 16:40:38,391 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-05-01 16:40:45,091 - INFO - /home/johndoe/api/backend-django/mailapp/views.py changed, reloading.
+2025-05-01 16:42:21,061 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:42:21,941 - INFO - Retrieve 1 template(s)
+2025-05-01 16:42:22,572 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:42:23,354 - INFO - Retrieve 1 template(s)
+2025-05-01 16:43:54,062 - WARNING - Not Found: /mail
+2025-05-01 16:44:21,735 - WARNING - Not Found: /mail/testimap/
+2025-05-01 16:44:25,598 - INFO - Retrieve 1 template(s)
+2025-05-01 16:44:27,078 - INFO - Retrieve 1 template(s)
+2025-05-01 16:44:29,114 - WARNING - Not Found: /mail/mailbox/
+2025-05-01 16:45:31,976 - INFO - Retrieve 1 template(s)
+2025-05-01 16:45:32,445 - WARNING - Not Found: /mail/mailbox/
+2025-05-01 16:45:45,061 - INFO - /home/johndoe/api/backend-django/mailapp/urls.py changed, reloading.
+2025-05-01 16:45:57,663 - INFO - /home/johndoe/api/backend-django/mailapp/urls.py changed, reloading.
+2025-05-01 16:46:44,679 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:48:49,469 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:48:49,737 - INFO - Retrieve 1 template(s)
+2025-05-01 16:48:50,583 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:48:52,386 - INFO - Retrieved 1 campaign(s)
+2025-05-01 16:48:54,136 - INFO - Retrieve 1 template(s)
