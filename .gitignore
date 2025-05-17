@@ -1,5 +1,7 @@
+# deprecated repo 
 backend-mail/
 api-mail/
+
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
 # dependencies
@@ -10,6 +12,9 @@ api-mail/
 */dist/
 */web-build/
 */expo-env.d.ts
+
+# vscode
+*/.vscode/
 
 # Native
 */*.orig.*
